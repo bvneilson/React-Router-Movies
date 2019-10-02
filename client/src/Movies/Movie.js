@@ -33,7 +33,7 @@ const Movie = (props) => {
   if (!movie || !stars) {
     return <div>Loading movie information...</div>;
   }
-  
+
   return (
     <div className="save-wrapper">
       <div className="movie-card">
